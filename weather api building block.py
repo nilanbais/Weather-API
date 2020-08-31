@@ -12,7 +12,7 @@ from pandas.io.json import json_normalize
 Datum = "01-01-2019"
 Locatie = "Rotterdam"
 
-# Omvormen van de datum naar het correcte voormat voor in de querystring voor de API
+# Omvormen van de datum naar het correcte format voor in de querystring voor de API
 dateObject = datetime.strptime(Datum, "%d-%m-%Y").strftime('%Y-%m-%d')
 
 # Vastleggen van de url
